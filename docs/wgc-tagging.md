@@ -1,0 +1,33 @@
+# WGC Tagging Standards
+
+[Home](wgc.md) | [Naming](wgc-naming.md) | [Tagging](wgc-tagging.md) | [Policy](wgc-policy.md) | [LandingZones](wgc-landingZone.md)
+
+We will be using the following tagging standards for this project.
+
+- **Resource Tags**: `env`, `app`, `owner`, `src`
+- **Resource Group Tags**: `env`, `app`, `owner`
+- **Subscription Tags**: `env`, `owner`
+
+Tags are key-value pairs that can be applied to Azure resources to help organize and manage resources. Tags can be used for a variety of purposes, including cost management, resource tracking, and access control.
+
+## Tagging Conventions
+
+1. **Env** - The environment or lifecycle the resource belongs to. This could be `poc`, `demo`, or `prod`.
+2. **App** - The name of the application or service that the resource belongs to.
+3. **Owner** - The name or email address of the resource owner.
+4. **Src** - The source of the resource, such as `arm`, `bicep`, `tf`, or `pul`.
+1. **Repo** - The name of the repository where the code for the deployment lives, optionally include branch as well
+1. **Created** - The date the resource was created, in `YYYY-MM-DD` format.
+
+## Examples
+
+Here are some examples of good tagging conventions:
+
+- `env:arm`, `app:myapp`, `owner:mike`
+- `env:tf`, `app:myapp`, `owner:jane`
+
+Tags are added from an az command by adding the `--tags` parameter. For example:
+
+```bash
+az group create --name myResourceGroup --location eastus --tags env=prod app=myapp owner=mike src=arm
+```

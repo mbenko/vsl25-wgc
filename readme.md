@@ -8,3 +8,4 @@ You will learn:
 - Develop skills in managing and governing cloud applications, focusing on resource consistency and automation within the Azure environment
 - Gain hands-on experience with Azure tools and services
 
+See [Well Governed Cloud](/docs/wgc.md)

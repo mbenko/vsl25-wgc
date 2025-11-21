@@ -1,14 +1,15 @@
+# WGC 2025 Workshop Setup Script
+
 start powerpnt.exe docs/bnk25-wgc-workshop.pptx
 
-dotnet new webapp -o src/myApp --framework net8.0
+# Create solution and web app project
+dotnet new webapp -o src/myApp 
 dotnet new sln -n wgc25
 dotnet sln add src/myApp
-devenv wgc25.sln
+devenv26 wgc25.sln
+
 
 ## Aspire demo
-# One-time
-dotnet new install Aspire.ProjectTemplates
-dotnet dev-certs https --trust
 
 # Demo app
 dotnet new aspire-starter --use-redis-cache --output src/myAspireSample
