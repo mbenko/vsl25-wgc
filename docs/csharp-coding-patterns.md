@@ -1,5 +1,9 @@
 # C# Coding Patterns for Azure Cloud Development
 
+📖 [Documentation Index](README.md) | [Table of Contents](toc.md)
+
+---
+
 This document outlines recommended coding patterns and best practices for C# development in Azure cloud environments, with a focus on well-governed cloud principles.
 
 ## Table of Contents
@@ -443,3 +447,5 @@ public class StorageServiceTests
 ---
 
 *This document is part of the Well Governed Cloud 2025 Workshop materials.*
+
+📖 [Documentation Index](README.md) | [Table of Contents](toc.md)
