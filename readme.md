@@ -8,3 +8,9 @@ You will learn:
 - Develop skills in managing and governing cloud applications, focusing on resource consistency and automation within the Azure environment
 - Gain hands-on experience with Azure tools and services
 
+## Documentation
+
+- [Documentation Home](/docs/README.md) - Browse all workshop documentation
+- [C# Coding Patterns](/docs/csharp-coding-patterns.md) - Best practices for C# development in Azure
+- [Table of Contents](/docs/toc.md) - Complete documentation index
+
