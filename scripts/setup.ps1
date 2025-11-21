@@ -17,8 +17,10 @@ dotnet run --project AspireSample.AppHost
 
 # Deploy to Azure
 azd init
+azd provision
+azd deploy
 azd up
+azd monitor
 
 # Optional
-azd monitor
-az group delete -n <rg-name>
+az group delete 
